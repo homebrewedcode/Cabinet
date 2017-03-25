@@ -6,8 +6,9 @@
   background-repeat: no-repeat;
   background-position: top center;
   width: 100%;
-  min-height: 500px;
+  min-height: 600px;
   display: table;
+  margin: 100px auto 100px;
   .banner_content {
     display: table-cell;
     vertical-align: middle;
@@ -53,6 +54,7 @@
   .callout_inner {
     display: table-cell;
     vertical-align: middle;
+    padding: 50px
   }
   .callout {
     text-align: center;
@@ -62,10 +64,12 @@
     h2 {
       @include bold_font;
       color: white;
+      font-size: 2.5rem;
       margin-bottom: 0;
     }
     p {
       color: rgba(255, 255, 255, 0.9);
+      font-size: 1.25rem;
     }
   }
 }
