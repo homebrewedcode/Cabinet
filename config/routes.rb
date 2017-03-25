@@ -8,5 +8,6 @@ Rails.application.routes.draw do
   end
 
   root 'welcome#index'
+  post 'docs/new', to: "docs#new"
 
 end
